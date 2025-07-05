@@ -1,0 +1,35 @@
+package com.bookapp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.bookapp.model.Book;
+import com.bookapp.service.IBookService;
+
+@SpringBootApplication
+public class SpringBootBookappApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootBookappApplication.class, args);
+	}
+
+	@Autowired
+	private IBookService bookService;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("List of Books");
+		bookService.getAll().forEach(System.out::println);
+		
+		System.out.println("List of Books By Author");
+		bookService.getByAuthor("Kathya").forEach(book->System.out.println(book));
+		
+		System.out.println("Book By Id");
+		Book book = bookService.getById(2);
+		System.out.println(book);
+		
+	}
+
+}

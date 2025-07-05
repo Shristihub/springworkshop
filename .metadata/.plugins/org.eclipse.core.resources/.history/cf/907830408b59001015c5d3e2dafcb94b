@@ -1,0 +1,10 @@
+package com.example.service;
+
+public class GreeterServiceImpl implements IGreeterService{
+
+	@Override
+	public String greetUser(String username) {
+		return "Have a great day "+username;
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.bookapp.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+
+@Entity
+//@Table(name="book_details") // to give a different table name
+public class Book {
+
+	private String title;
+	private Integer bookId;
+	private double price;
+	private String author;
+	private String category;
+	
+
+
+}

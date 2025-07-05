@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Book.java&apos; to &apos;spring-boot-bookapp-jpa/src/main/java/com.bookapp.model&apos;&#x0D;&#x0A;- Original project: &apos;spring-boot-bookapp-jpa&apos;&#x0D;&#x0A;- Destination element: &apos;spring-boot-bookapp-jpa/src/main/java/com.bookapp.model&apos;&#x0D;&#x0A;- Original element: &apos;com.bookapp.model.Book.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bookapp.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bookapp.model{Book.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1751720344914" units="1" version="1.0"/>
+</session>
