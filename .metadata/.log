@@ -217,3 +217,48 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
 	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:39:46.936
+!MESSAGE Classpath changed for project: spring-boot-bookapp-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:39:46.936
+!MESSAGE Boot project ADDED: spring-boot-bookapp-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:39:47.348
+!MESSAGE Classpath changed for project: spring-boot-bookapp-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:39:51.734
+!MESSAGE Classpath changed for project: spring-boot-bookapp-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:40:06.086
+!MESSAGE Classpath changed for project: spring-boot-bookapp-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:43:07.943
+!MESSAGE Classpath changed for project: spring-boot-bookapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:43:07.943
+!MESSAGE Boot project REMOVED: spring-boot-bookapp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:43:07.943
+!MESSAGE Classpath changed for project: spring-boot-bookapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 16:43:07.944
+!MESSAGE Boot project REMOVED: spring-boot-bookapp-jpa
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.021
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.022
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.023
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.023
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.031
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 16:43:08.036
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
